@@ -66,6 +66,21 @@
         "args": "none"
       }
     ],
-    "semi": 2
+    "semi": 2,
+    "class-methods-use-this": ["error", {
+      "exceptMethods": [
+        "render",
+        "getInitialState",
+        "getDefaultProps",
+        "getChildContext",
+        "componentWillMount",
+        "componentDidMount",
+        "componentWillReceiveProps",
+        "shouldComponentUpdate",
+        "componentWillUpdate",
+        "componentDidUpdate",
+        "componentWillUnmount"
+      ]
+    }]
   }
 }
